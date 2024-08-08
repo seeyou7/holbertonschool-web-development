@@ -6,20 +6,18 @@
     font-family: "Open Sans", sans-serif;
 }
 
-/* Global */
+/* Global */ /* 1st task css advance */
 body {
     background-image: url("./images/background.png");
     background-repeat: no-repeat;
     background-position: start top;
     background-size: cover;
     max-height: 150vh;
-}  
-
+} 
 /* Header */
 header {
     text-transform: uppercase;
 }
-
 header div {
     color: white;
     display: flex;
@@ -27,34 +25,28 @@ header div {
     align-items: center;
     padding: 20px 50px;
 }
-
 header div a {
     color: white;
     margin: 0 30px;
 }
-
 /* General Styles for the Section */
 section {
     text-align: center;
 }
-
 /* Styles for the Intro Section */
 .intro-section {
-    margin: 60px 0;
+    margin: 55px 0;
    
 }
-
 .intro-section h1 {
     font-size: 120px;
     color: white;
 }
-
 .sub-title {
     text-transform: uppercase;
     color: white;
     word-spacing: 60px;
 }
-
 button {
     background-color: #c271ff;
     color: white;
@@ -65,7 +57,6 @@ button {
     text-transform: uppercase;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
 /* Styles for the Learning Section */
 /* Specific Styles for the 'Learning Section' */
 .learning-section {
@@ -73,13 +64,10 @@ button {
     font-size: 32px;
     color: #fff;
 }
-
 /* Target the 'span' h2' */
 .learning-section span {
     color: #c271ff;  
 }
-
-
 /* Flex container for profiles */
 .profile-container {
     display: flex;
@@ -92,19 +80,17 @@ button {
     margin: 20px;
     display: block;
 }
-
 .profile h3 {
     font-weight: bold;
     color: white;
     margin: 0.45rem 0;
 }
-
 .profile p {
     color: rgb(215, 215, 215);
     font-style: italic;
 }
 
-
+/* 2nd task css advance */
 
 /* Second section */
 /* Styles for the Testimonial Section */
@@ -112,7 +98,7 @@ button {
     background-color: #c271ff;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
     padding: 80px 0;
 }
 
@@ -122,20 +108,28 @@ button {
 
 .testimonial-image {
     width: 160px;
-    /* float: left; */
+    float: left;
     margin-right: 30px;
 }
 
 .testimonial-content blockquote {
     margin-top: 10px;
+    
 }
+
 
 .author {
     font-weight: bold;
     font-size: large;
-    margin: 20px 0 10px 0;
+    margin: 20px 0px 10px 0; 
+    display: flex;     
 }
 
+.role {
+    display: flex;
+}
+
+/* question 4 styling for video list section*/
 
 /* Styles for the Tutorial Section */
 .tutorial-section {
@@ -146,7 +140,7 @@ button {
 .section-title {
     font-size: 32px;
     font-weight: 300;
-    margin: 60px 0;
+    margin: 60px; */
 }
 
 .section-title .highlight {
@@ -172,7 +166,7 @@ button {
 .video-description {
     color: #07162980;  /* Semi-transparent black */
     font-size: 14px;
-    margin-bottom: 15px;
+   margin-bottom: 15px;
 }
 
 .video-author {
@@ -181,7 +175,7 @@ button {
 }
 
 .video-author .author-image {
-    width: 30px;
+    width: 35px;
 }
 
 .video-author .author-name {
@@ -192,7 +186,7 @@ button {
 
 .video-rating {
     display: flex;
-    margin: 15px 0;
+    margin: 15px;
     justify-content: space-between;
 }
 
@@ -205,6 +199,8 @@ button {
 .video-rating .duration {
     color: #c271ff;
 }
+
+/* question 5 membership section styling*/
 
 
 /* Styles for the Membership Section */
@@ -237,7 +233,7 @@ button {
 
 .membership-section .membership-item .membership-image {
     text-align: center;
-    margin: 0 auto; /* Centers the image in the membership item */
+    margin: 0 auto; /*Centers the image in the membership item */
 }
 
 .membership-section .membership-item .membership-title {
@@ -257,6 +253,8 @@ button {
 
 }
 
+/* 6 queston FAQ Section */ 
+
 /* Styles for the FAQ Section sec 5*/
 .faq-section {
     margin: 0 0 60px 0;
@@ -275,7 +273,7 @@ button {
 }
 
 .faq-row {
-    display: flex;
+    display: float;
     justify-content: space-around;
 }
 
@@ -298,6 +296,7 @@ button {
     line-height: 1.5;
 }
 
+/* 7 question footer styling */ 
 
 /* Footer */
 /* Styles for the site footer */
@@ -333,4 +332,3 @@ button {
     font-weight: 400;             
     padding-bottom: 40px;         
 }
-
